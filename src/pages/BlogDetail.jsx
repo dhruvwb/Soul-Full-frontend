@@ -5,7 +5,6 @@ import Seo from "../helpers/components/Seo";
 import RichContent from "../helpers/components/RichContent";
 import Footer from "../helpers/components/Footer";
 import { getPublicBlogBySlug, getPublicBlogs, getAssetUrl, submitEnquiry } from "../services/api";
-import homeContent from "../models/homeContent";
 
 const buildExcerpt = (text, maxLength = 160) => {
   if (!text) return "";
