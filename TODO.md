@@ -1,0 +1,2 @@
+- [ ] Remove unused imports: FaArrowLeft, FaArrowRight, FaCalendarAlt, Collapse, bg, month_bg, DestinationCarousel
+- [ ] Remove unused variables: vacationPlaces, destinations, additionalContent, tourCategories, handleButtonClick, scrollSliderLeft, scrollSliderRight, showMore, setShowMore, scrollLeft, scrollRight
