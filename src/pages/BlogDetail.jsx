@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import { Container, Badge, Form, Button, Alert } from "react-bootstrap";
+import { Container, Form, Button, Alert } from "react-bootstrap";
 import Seo from "../helpers/components/Seo";
 import RichContent from "../helpers/components/RichContent";
 import Footer from "../helpers/components/Footer";
@@ -50,8 +50,6 @@ const BlogDetail = () => {
   const [bookForm, setBookForm] = useState({ name: "", mobile: "", email: "", message: "" });
   const [submitting, setSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
-
-  const contactInfo = homeContent.footer?.contact || {};
 
   useEffect(() => {
     let cancelled = false;
