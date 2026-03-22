@@ -2,6 +2,11 @@
   "installCommand": "npm install --legacy-peer-deps",
   "buildCommand": "npm run build",
   "outputDirectory": "build",
+  "env": {
+    "REACT_APP_API_BASE": "https://soul-full-backend.onrender.com/api",
+    "NODE_ENV": "production",
+    "GENERATE_SOURCEMAP": "false"
+  },
   "rewrites": [
     {
       "source": "/:path((?!api).*)*",

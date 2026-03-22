@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'https://soul-full-backend.onrender.com/api';
+const API_BASE = process.env.REACT_APP_API_BASE || 'https://soul-full-backend.onrender.com/api';
 const ROOT_BASE = API_BASE.replace(/\/api\/?$/, '');
 
 const api = axios.create({ baseURL: API_BASE });
